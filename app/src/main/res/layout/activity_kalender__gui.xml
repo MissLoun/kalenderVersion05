@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/layout_NavigationBar"
+
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+
+        android:background="@color/dezember">
+
+        <Button
+            android:id="@+id/button_Zuvor"
+
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="0dp"
+
+            android:background="@android:color/white"
+
+            android:text="@string/zuvor"
+            android:textColor="@color/dezember"/>
+
+        <Button
+            android:id="@+id/button_Next"
+
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="0dp"
+
+            android:background="@android:color/white"
+
+            android:text="@string/next"
+            android:textColor="@color/dezember"/>
+
+        <TextView
+            android:id="@+id/textView_Monat"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+
+            android:gravity="center"
+            android:text="Monat"
+            android:textAllCaps="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView_Jahr"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/textView_Monat"
+
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+
+            android:text="Jahr"
+            android:textAllCaps="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_kalender_Wochentage"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/dezember"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textViewMo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mo"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textViewDi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Di"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textViewMi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mi"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textViewDo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Do"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textViewFr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fr"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textViewSa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sa"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textViewSo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="So"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"/>
+
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView_Kalender_Tabelle_AktuellerMonat"
+        android:layout_width="match_parent"
+        android:layout_height="311dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:clickable="false"
+        android:numColumns="7" >
+
+    </GridView>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gelb">#daa032</color>
+    <color name="hellgelb">#e4dbc9</color>
+    <color name="grau">#7e7e7e</color>
+
+    <color name="januar">#7197b9</color>
+    <color name="februar">#71b9b9</color>
+    <color name="maerz">#71b97c</color>
+    <color name="april">#99b971</color>
+    <color name="mai">#b9b571</color>
+    <color name="juni">#b9a071</color>
+    <color name="juli">#b99571</color>
+    <color name="august">#b97e71</color>
+    <color name="september">#b97371</color>
+    <color name="oktober">#b9718a</color>
+    <color name="november">#9d71b9</color>
+    <color name="dezember">#7971b9</color>
+</resources>

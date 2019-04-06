@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Projektarbeit</string>
+
+    <string name="zuvor" >zuvor</string>
+
+    <string name="next">next</string>
+
+    <string name="januar">Januar</string>
+    <string name="februar">Februar</string>
+    <string name="maerz">März</string>
+    <string name="april">April</string>
+    <string name="mai">Mai</string>
+    <string name="juni">Juni</string>
+    <string name="juli">Juli</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="oktober">Oktober</string>
+    <string name="november">November</string>
+    <string name="dezember">Dezember</string>
+
+</resources>
